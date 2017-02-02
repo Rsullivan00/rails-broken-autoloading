@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tested using Rails 5.0.1 and Ruby 2.3.0.
 
-Things you may want to cover:
+The problem was initially noticed on Rails 4.2.5 and Ruby 2.2.3.
 
-* Ruby version
+## Reproduction steps
 
-* System dependencies
+1. Clone this repo
+2. `rails s`
+3. Go to http://localhost:3000/test
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Expected result:** See 'engine user'
+**Actual result:** See 'main app user'
