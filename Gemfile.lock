@@ -1,3 +1,9 @@
+PATH
+  remote: components
+  specs:
+    myengine (0.1.0)
+      rails (~> 5.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -159,6 +165,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  myengine!
   puma (~> 3.0)
   rails (~> 5.0.1)
   sass-rails (~> 5.0)

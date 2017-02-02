@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Myengine::VERSION
   s.authors     = ["Rick Sullivan"]
   s.email       = ["rsullivan@focusvision.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Myengine."
-  s.description = "TODO: Description of Myengine."
+  s.homepage    = ""
+  s.summary     = "Summary of Myengine."
+  s.description = "Description of Myengine."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
